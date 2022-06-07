@@ -9,7 +9,7 @@ let port = process.env.PORT;
 if (port == null || port == "") {
   port = 4000;
 }
-app.listen(port);
+
 
 app.use(cors());
 app.use(express.json());
